@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(to left, #d0a6b3, #776067);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.cat {
+  height: 60px;
+  border-radius: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  font-family: "Dongle", sans-serif;
+  color: #f5f5f5;
+  font-weight: 400;
+  font-size: 25px;
+}
+
+main {
+  border-top: 0.5px solid #f5f5f5;
+  margin-bottom: 50px;
+}
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.main {
+    font-family: "Dongle", sans-serif;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+h2 {
+    font-family: "Dongle", sans-serif;
+    color: #f5f5f5;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+button {
+    background-color: #f5f5f5;
+    height: 60px;
+    width: 180px;
+    border: none;
+    box-shadow: 4px 5px 4px #474646;
+    border-radius: 20px;
+    font-family: "Dongle", sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+button:hover {
+    background-color: #c8c8c8;
+}
+
+.robot {
+    height: 400px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+h3 {
+    border-top: 0.4px solid #f5f5f5;
+    padding-top: 48px;
+    font-family: "Dongle", sans-serif;
+    color: #f5f5f5;
+    font-weight: 400;
+    font-size: 45px;
+}
+
+p {
+    font-family: "Dongle", sans-serif;
+    color: #f5f5f5;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+footer {
+    padding: 25px;
+    border-top: 0.4px solid #f5f5f5;
+}
+
+.footer {
+    font-family: "Dongle", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    color: #f5f5f5;
+}
